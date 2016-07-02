@@ -12,6 +12,7 @@
 		BB780F881D16396500725BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB780F861D16396500725BD6 /* Main.storyboard */; };
 		BB780F8A1D16396500725BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB780F891D16396500725BD6 /* Assets.xcassets */; };
 		BB780F8D1D16396500725BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB780F8B1D16396500725BD6 /* LaunchScreen.storyboard */; };
+		BB780F951D1639E000725BD6 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB780F941D1639E000725BD6 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB780F891D16396500725BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB780F8C1D16396500725BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB780F8E1D16396500725BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB780F941D1639E000725BD6 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BB780F891D16396500725BD6 /* Assets.xcassets */,
 				BB780F8B1D16396500725BD6 /* LaunchScreen.storyboard */,
 				BB780F8E1D16396500725BD6 /* Info.plist */,
+				BB780F941D1639E000725BD6 /* Datos.swift */,
 			);
 			path = HamburgesasDelMundo;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				BB780F851D16396500725BD6 /* ViewController.swift in Sources */,
 				BB780F831D16396500725BD6 /* AppDelegate.swift in Sources */,
+				BB780F951D1639E000725BD6 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.kaa.HamburgesasDelMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.kaa.HamburgesasDelMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
